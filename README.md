@@ -1,3 +1,4 @@
+
 Step 1.Add it in your root build.gradle at the end of repositories:
 
 	allprojects {
@@ -17,7 +18,7 @@ Step 2. Add the dependency
 
 How to setup paytm account?
 ----------------------------------------------
-
+<pre>
 ->Create your paytm account using mobile number, emailid(option) and password.
 -> open this link https://business.paytm.com then go for business signup from right top side menu.
 -> Go for 'Payment Gateway for Website/App.
@@ -26,6 +27,7 @@ How to setup paytm account?
 -> To Generate Sandbox Credentials add company name,yourname,email id,accept payment on app/web or both select option from given choice and add app url and weburl.
 -> Select Dev Platform. if selected other then enter Callback URL.
 -> after successfully register you will get bellow details::
+</pre>
 
 	Sandbox Merchant ID?
 	Website Url = ?
@@ -44,10 +46,11 @@ How to setup paytm account?
 ----------------------------------------------
 Now we are going to explain paytm android demo
 ----------------------------------------------
-
+<pre>
 -> For android paytm we need to add PGSDK_V2.1.jar file in lib folder.
 -> If You have Auth Certificate then keep it in res/raw folder and create PaytmClientCertificate by password and filename.
 -> If you have not Certificate file don't worry pass null instead of PaytmClientCertificate object.
+</pre>
 
 Refer above example.
 
